@@ -1,0 +1,11 @@
+{application, twitter,
+ [
+  {description, "Twitter erlang example"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
